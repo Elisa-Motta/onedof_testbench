@@ -1,0 +1,43 @@
+{
+	"sea_controller_parameters":
+	{
+		"torque_control_p_gain": 0.025,
+		"torque_control_i_gain": 0.001,
+		"torque_control_d_gain": 0.0005,
+		"position_control_p_gain": 0.3,
+		"position_control_i_gain": 0.001,
+		"position_control_d_gain": 0.005,
+		"impedance_control_k_gain_mNm_per_rad": 10,
+		"impedance_control_d_gain_mNm_per_rad_per_sec": 0,
+		"impedance_control_max_error_radians": 1,
+		"friction_comp_max_torque_mNm": 0,
+		"friction_torque_threshold_rad_per_s": 0.0000001,
+		"soft_to_hard_stop_offset_deg": 10,
+		"soft_stop_max_torque_mNm": 20000,
+		"max_velocity_threshold_rad_per_sec": 1,
+		"max_load_stop_threshold_mNm": 40000,
+		"max_torque_change_mNm_per_interval": 100
+	},
+
+	"sea_joint_parameters":
+	{
+		"joint_index": 2,
+		"gear_power_efficiency": 0.8,
+		"gear_ratio": 120,
+		"current_conversion_factor_mA_to_setpoint": 5000,
+		"torque_constant_mNm_per_mA": 114,
+		"positive_hard_stop_position_degrees": 90,
+		"negative_hard_stop_position_degrees": -90,
+		"use_incremental_encoder": 1,
+		"loadcell_sign": 1,
+		"absolute_encoder_sign": 1,
+		"incremental_encoder_sign": 1,
+		"desired_torque_sign": -1,
+		"incremental_encoder_resolution_cpt": 4096,
+		"loadcell_calibration_mV_to_mNm": 28.325,
+		"loadcell_offset_mV": -12.83, 
+		"absolute_encoder_offset_counts": 3431,
+		"linear_actuator_offset_mV": 0,
+		"linear_actuator_calibration_mV_to_mm": 0
+	}
+}

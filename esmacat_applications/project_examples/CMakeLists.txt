@@ -1,0 +1,12 @@
+add_subdirectory(analog_input)
+add_subdirectory(arduino_shield)
+add_subdirectory(motor_driver)
+add_subdirectory(loadcell_interface)
+add_subdirectory(digital_io)
+add_subdirectory(sales_kit)
+add_subdirectory(motor_position_control)
+add_subdirectory(motor_control_w_potentiometer)
+add_subdirectory(led_on)
+add_subdirectory(demo_kit)
+add_subdirectory(mini_torque_driver)
+

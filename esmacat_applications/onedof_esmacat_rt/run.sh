@@ -1,0 +1,2 @@
+sudo ./onedof_esmacat_rt &
+sudo /home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/esmacat_core/application/ecat_main

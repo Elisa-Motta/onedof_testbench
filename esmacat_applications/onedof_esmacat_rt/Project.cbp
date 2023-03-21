@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Project"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="onedof_esmacat_rt_display">
+				<Option output="/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/onedof_esmacat_rt_display" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/configuration/onedof_config_files"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 onedof_esmacat_rt_display"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="onedof_esmacat_rt_display/fast">
+				<Option output="/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/onedof_esmacat_rt_display" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/configuration/onedof_config_files"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 onedof_esmacat_rt_display/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="onedof_esmacat_rt">
+				<Option output="/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/onedof_esmacat_rt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/configuration/onedof_config_files"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 onedof_esmacat_rt"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="onedof_esmacat_rt/fast">
+				<Option output="/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/onedof_esmacat_rt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/configuration/onedof_config_files"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 onedof_esmacat_rt/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="onedof_esmacat_rt_input">
+				<Option output="/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/onedof_esmacat_rt_input" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/configuration/onedof_config_files"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 onedof_esmacat_rt_input"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="onedof_esmacat_rt_input/fast">
+				<Option output="/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/onedof_esmacat_rt_input" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/configuration/onedof_config_files"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 onedof_esmacat_rt_input/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/agree_display.cpp">
+			<Option target="onedof_esmacat_rt_display"/>
+		</Unit>
+		<Unit filename="/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/agree_ease.cpp">
+			<Option target="onedof_esmacat_rt"/>
+		</Unit>
+		<Unit filename="/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/agree_ease.h">
+			<Option target="onedof_esmacat_rt_display"/>
+			<Option target="onedof_esmacat_rt"/>
+			<Option target="onedof_esmacat_rt_input"/>
+		</Unit>
+		<Unit filename="/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/agree_input.cpp">
+			<Option target="onedof_esmacat_rt_input"/>
+		</Unit>
+		<Unit filename="/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/agree_joint_controller.cpp">
+			<Option target="onedof_esmacat_rt"/>
+		</Unit>
+		<Unit filename="/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/agree_joint_controller.h">
+			<Option target="onedof_esmacat_rt_display"/>
+			<Option target="onedof_esmacat_rt"/>
+			<Option target="onedof_esmacat_rt_input"/>
+		</Unit>
+		<Unit filename="/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/onedof_app.cpp">
+			<Option target="onedof_esmacat_rt"/>
+		</Unit>
+		<Unit filename="/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/onedof_app.h">
+			<Option target="onedof_esmacat_rt_display"/>
+			<Option target="onedof_esmacat_rt"/>
+			<Option target="onedof_esmacat_rt_input"/>
+		</Unit>
+		<Unit filename="/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/onedof_common.h">
+			<Option target="onedof_esmacat_rt_display"/>
+			<Option target="onedof_esmacat_rt"/>
+			<Option target="onedof_esmacat_rt_input"/>
+		</Unit>
+		<Unit filename="/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/onedof_joint_structs.h">
+			<Option target="onedof_esmacat_rt_display"/>
+			<Option target="onedof_esmacat_rt"/>
+			<Option target="onedof_esmacat_rt_input"/>
+		</Unit>
+		<Unit filename="/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/onedof_logger.h">
+			<Option target="onedof_esmacat_rt_display"/>
+			<Option target="onedof_esmacat_rt"/>
+			<Option target="onedof_esmacat_rt_input"/>
+		</Unit>
+		<Unit filename="/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/onedof_main.cpp">
+			<Option target="onedof_esmacat_rt"/>
+		</Unit>
+		<Unit filename="/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/onedof_robot.cpp">
+			<Option target="onedof_esmacat_rt"/>
+		</Unit>
+		<Unit filename="/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/onedof_robot.h">
+			<Option target="onedof_esmacat_rt_display"/>
+			<Option target="onedof_esmacat_rt"/>
+			<Option target="onedof_esmacat_rt_input"/>
+		</Unit>
+		<Unit filename="/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/onedof_shared_memory_comm.cpp">
+			<Option target="onedof_esmacat_rt_display"/>
+			<Option target="onedof_esmacat_rt"/>
+			<Option target="onedof_esmacat_rt_input"/>
+		</Unit>
+		<Unit filename="/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/onedof_shared_memory_comm.h">
+			<Option target="onedof_esmacat_rt_display"/>
+			<Option target="onedof_esmacat_rt"/>
+			<Option target="onedof_esmacat_rt_input"/>
+		</Unit>
+		<Unit filename="/home/esmacat/esmacat_rt/esmacat_master_high_performance/esmacat_applications/onedof_esmacat_rt/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/slave_import_wizard.dir/slave_import_wizard.c.o  -o slave_import_wizard  -L/home/esmacat/fede_rt/lib -Wl,-rpath,/home/esmacat/fede_rt/lib: ../../../libethercat_driver.a -lpthread 

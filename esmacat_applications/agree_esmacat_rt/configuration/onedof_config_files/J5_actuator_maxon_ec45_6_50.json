@@ -1,0 +1,67 @@
+{
+    "sea_controller_parameters":
+    {
+        "torque_control_p_gain": 0.5,
+        "torque_control_i_gain": 0.0,
+        "torque_control_d_gain": 0.0,
+        "position_control_p_gain": 0.3,
+        "position_control_i_gain": 0.001,
+        "position_control_d_gain": 0.005,
+        "impedance_control_k_gain_mNm_per_rad": 10.0,
+        "impedance_control_d_gain_mNm_per_rad_per_sec":2.0,
+        "impedance_control_max_error_radians": 1,
+        "friction_comp_max_torque_mNm": 0,
+        "friction_torque_threshold_rad_per_s": 0.0000001,
+        "friction_comp_vibration_frequency": 50,
+        "friction_comp_vibration_amplitude": 2000,
+        "friction_comp_viscous_coeff": 0.0,
+        "soft_to_hard_stop_offset_deg": 5,
+        "soft_stop_max_torque_mNm": 1000,
+        "max_velocity_threshold_rad_per_sec": 10.0,
+        "max_torque_change_mNm_per_interval": 500.0,
+        "max_torque_control_input_mNm": 1000.0,
+        "min_torque_control_input_mNm": -1000.0,
+        "velocity_low_pass_filter_weight_for_current_measure": 0.01,
+        "loadcell_low_pass_filter_weight_for_current_measure": 1.0,
+        "gain_inertia_dynamics_compensation": 0.020,
+        "max_torque_change_mNm_per_ms": 500.0,
+        "max_integrated_torque_error_mNm": 1000.0,
+        "max_allowable_redundancy_error_for_motor_current_mA": 1000.0,
+        "max_allowable_redundancy_error_for_motor_velocity_rad_per_sec": 3.14
+    },
+
+    "sea_joint_parameters":
+    {
+        "joint_index": 5,
+        "gear_power_efficiency": 1.0,
+        "gear_ratio": 14.0,
+        "transmission_ratio": 1.0,
+        "current_conversion_factor_A_to_setpoint": 5,
+        "torque_constant_mNm_per_A": 40.4,
+        "hard_stop_upper_limit_degrees": 90,
+        "hard_stop_lower_limit_degrees": -90,
+        "use_incremental_encoder": 1,
+
+        "loadcell_sign": -1,
+        "absolute_encoder_sign": 1,
+        "incremental_encoder_sign": -1,
+        "encoder_calibration_sign": 1,
+
+        "encoder_calibration_offset_rad": -90.0,
+        "encoder_calibration_threshold_torque": 250.0,
+
+        "desired_torque_sign": 1,
+        "incremental_encoder_resolution_cpt": 2048,
+        "loadcell_calibration_mV_to_mNm": 1.4125,
+        "loadcell_offset_mV": 0.0,
+
+        "absolute_encoder_offset_counts": 0,
+        "linear_actuator_offset_mV": 0,
+        "linear_actuator_calibration_mV_to_mm": 0,
+
+        "escon_analog_output0_voltage_V_to_current_A_offset": -5.0,
+        "escon_analog_output0_voltage_V_to_current_A_slope": 2.5,
+        "escon_analog_output1_velocity_V_to_current_rpm_offset": -2000.0,
+        "escon_analog_output1_velocity_V_to_current_rpm_slope": 1000.0
+    }
+}

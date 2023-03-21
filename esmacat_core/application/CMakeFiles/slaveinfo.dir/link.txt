@@ -1,0 +1,1 @@
+/usr/bin/cc    CMakeFiles/slaveinfo.dir/__/__/SOEM/test/linux/slaveinfo/slaveinfo.c.o  -o slaveinfo  -L/home/esmacat/fede_rt/lib -Wl,-rpath,/home/esmacat/fede_rt/lib ../../libethercat_driver.a -lpthread 

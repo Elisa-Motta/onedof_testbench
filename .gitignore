@@ -1,0 +1,3 @@
+CMakeFiles/*
+*.txt.user
+cmake_install.cmake
